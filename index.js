@@ -24,3 +24,11 @@ if(katzDeliLine>[]) {
       return "The line is currently empty."
     }
 }
+
+
+
+function takeANumber(katzDeliLine) {
+  var i=katzDeliLine.length
+    i++
+     katzDeliLine.push(i)
+}
